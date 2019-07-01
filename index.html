@@ -13,8 +13,8 @@
 
     <div class="container">
         <script>
-            var today = new Date();
-            var todayHtml = today.getFullYear() + '/' + (today.getMonth()+1)+'/'+ today.getDate(); 
+            let today = new Date();
+            let todayHtml = today.getFullYear() + '/' + (today.getMonth()+1)+'/'+ today.getDate(); 
             //getMonthは+1にしないと正しくならない
 
             document.write('<p class="date">' + todayHtml + '</p>');
